@@ -2,6 +2,8 @@
 
 This is a REST API built in Python with Flask to allow users to get department and course data from the [UBC SSC](https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-all-departments).
 
+Note: Since the [https://irp.ubc.ca/workday_default_profile_changes#:~:text=On%20May%2021%2C%202024%2C%20UBC,have%20more%20than%20one%20profile.](switch to Workday), the course information now requires authentication, so this service no longer functions.
+
 ## Examples
 ```
 Endpoint (GET): api/v1/course/info
